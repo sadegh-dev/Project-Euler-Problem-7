@@ -4,9 +4,8 @@ By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that 
 What is the 10 001st prime number?
 """
 
-pn = [1,2]
-counter = 2
-id = 3
+pn = []
+counter = 1
 
 while len(pn) < 10001 :
     for x in pn:
