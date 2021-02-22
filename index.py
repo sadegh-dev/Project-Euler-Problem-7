@@ -5,10 +5,18 @@ What is the 10 001st prime number?
 """
 
 pn = [1,2]
-counter = 3
+counter = 2
 
 while len(pn) < 10 :
-    pass
+    for x in pn:
+        counter += 1
+        if counter % x == 0 :
+            pn.append(counter)
+            break
+
+
+
+
 
 
 print(pn[-1])
