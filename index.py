@@ -7,8 +7,8 @@ What is the 10 001st prime number?
 pn = [1,2]
 counter = 3
 
-#while len(pn) < 10 :
-#    pass
+while len(pn) < 10 :
+    pass
 
 
 print(pn[-1])
