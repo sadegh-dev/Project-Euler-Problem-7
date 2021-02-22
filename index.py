@@ -6,14 +6,15 @@ What is the 10 001st prime number?
 
 pn = [1,2]
 counter = 2
+id = 3
 
-while len(pn) < 20 :
+while len(pn) < 10001 :
     for x in pn:
         counter += 1
         if counter % x == 0 :
             break
             pn.append(counter)
 
-print(pn[-1])
+print(pn)
 
 
