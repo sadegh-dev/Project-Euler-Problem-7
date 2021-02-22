@@ -12,12 +12,8 @@ while len(pn) < 20 :
         counter += 1
         if counter % x == 0 :
             break
-        pn.append(counter)
+            pn.append(counter)
 
-
-
-
-
-print(pn)
+print(pn[-1])
 
 
