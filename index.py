@@ -17,6 +17,6 @@ while len(a) < 10001 :
         a.append(x)
     x += 1
 
-print(a)
-print(len(a))
+print(a[-1])
+
 
